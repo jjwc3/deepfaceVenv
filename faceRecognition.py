@@ -60,3 +60,7 @@ def main() :
                 print(f"  - Face extraction failed for {img_file}: {e}")
         else:
             print(f"[NO MATCH] {img_file}: Face Did Not Match.")
+
+
+if __name__ == "__main__":
+    main()
